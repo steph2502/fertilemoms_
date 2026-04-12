@@ -115,7 +115,7 @@ export default function ProcessPage() {
               fontWeight: 300,
             }}
           >
-            We guide you through every step with clarity, care, and expertise —
+            We guide you through every step with clarity, care, and expertise,
             so you always know what to expect.
           </p>
 
