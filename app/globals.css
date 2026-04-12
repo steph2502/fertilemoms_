@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+/* 🌿 BRAND COLORS */
+:root {
+  --primary: #8E44AD;   /* purple */
+  --dark: #1a1a1a;      /* black */
+  --light: #ffffff;     /* white */
+  --text: #333333;
+  --muted: #6b7280;
+}
+
+/* 🌍 GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 🧼 BODY STYLING */
+body {
+  background: var(--light);
+  color: var(--text);
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.6;
+}
+
+/* ✨ FLOATING ANIMATION */
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-12px); }
+  100% { transform: translateY(0px); }
+}
+
+.float {
+  animation: float 4s ease-in-out infinite;
+}
+
+/* ✨ SMOOTH TRANSITIONS */
+* {
+  transition: all 0.2s ease-in-out;
+}
